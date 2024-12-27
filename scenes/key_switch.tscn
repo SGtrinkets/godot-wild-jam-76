@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://ca54iagn0dkk8"]
+
+[ext_resource type="PackedScene" uid="uid://b5iv08j2474sy" path="res://assets/Props/key switch.glb" id="1_eymbt"]
+[ext_resource type="Texture2D" uid="uid://c1fbs70ax3wg4" path="res://assets/textures/others/gold_texture.png" id="2_obp4q"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x8xrp"]
+albedo_texture = ExtResource("2_obp4q")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_885hg"]
+size = Vector3(1.0754, 0.429498, 1.02119)
+
+[node name="key switch" instance=ExtResource("1_eymbt")]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+
+[node name="Key" parent="." index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_x8xrp")
+
+[node name="Cube_001" parent="." index="3"]
+transform = Transform3D(0.0281001, 0, 0, 0, 0.325715, -0.0284639, 0, 0.175527, 0.0528187, 0, 2.09741, 0.279321)
+
+[node name="Area3D" type="Area3D" parent="." index="4"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" index="0" groups=["switch"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0426721, 2.84565, 0.0841305)
+shape = SubResource("BoxShape3D_885hg")

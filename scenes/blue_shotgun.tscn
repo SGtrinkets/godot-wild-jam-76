@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://dswbkjojw212w"]
+
+[ext_resource type="PackedScene" uid="uid://dx0fpq6nd74tm" path="res://assets/Props/blue shotgun.glb" id="1_xjapi"]
+[ext_resource type="Texture2D" uid="uid://yviujdkjjkib" path="res://assets/textures/others/blue_steel.png" id="2_tn48j"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ofmyd"]
+albedo_texture = ExtResource("2_tn48j")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2iohn"]
+size = Vector3(2.745, 0.55, 0.137)
+
+[node name="blue shotgun" instance=ExtResource("1_xjapi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.565, 0, 0, 0)
+
+[node name="PABody&Barrel_001" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, -3.57628e-07, -1, 0, 1, -3.57628e-07, 0, -1.10202, 0)
+surface_material_override/0 = SubResource("StandardMaterial3D_ofmyd")
+
+[node name="Pump" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, -3.57628e-07, -1, 0, 1, -3.57628e-07, 0, -1.10202, 0)
+
+[node name="Trigger_001" parent="." index="2"]
+transform = Transform3D(1, 0, 0, 0, -3.57628e-07, -1, 0, 1, -3.57628e-07, 0, -1.10202, 0)
+
+[node name="Area3D" type="Area3D" parent="." index="3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" index="0" groups=["shotgun"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.042, 0.016, 0.004)
+shape = SubResource("BoxShape3D_2iohn")

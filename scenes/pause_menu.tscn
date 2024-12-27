@@ -1,0 +1,154 @@
+[gd_scene load_steps=5 format=3 uid="uid://dipkgyxeksy52"]
+
+[ext_resource type="Script" path="res://audio.gd" id="1_68h54"]
+[ext_resource type="Script" path="res://scripts/pause_menu.gd" id="1_c8mr8"]
+
+[sub_resource type="Theme" id="Theme_eguqy"]
+
+[sub_resource type="Theme" id="Theme_6dtst"]
+
+[node name="PauseMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_c8mr8")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -61.0
+offset_top = -82.0
+offset_right = 61.0
+offset_bottom = 82.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="pause" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme = SubResource("Theme_eguqy")
+
+[node name="options" type="Button" parent="MarginContainer/pause"]
+layout_mode = 2
+theme = SubResource("Theme_6dtst")
+theme_override_font_sizes/font_size = 21
+text = "Options"
+
+[node name="retry_current_level" type="Button" parent="MarginContainer/pause"]
+layout_mode = 2
+theme = SubResource("Theme_6dtst")
+theme_override_font_sizes/font_size = 21
+text = "Retry Level"
+
+[node name="main_menu" type="Button" parent="MarginContainer/pause"]
+layout_mode = 2
+theme = SubResource("Theme_6dtst")
+theme_override_font_sizes/font_size = 21
+text = "Main Menu"
+
+[node name="option_menu" type="VBoxContainer" parent="MarginContainer"]
+visible = false
+layout_mode = 2
+
+[node name="audio" type="Button" parent="MarginContainer/option_menu"]
+layout_mode = 2
+text = "Audio"
+
+[node name="controls" type="Button" parent="MarginContainer/option_menu"]
+layout_mode = 2
+text = "Controls"
+
+[node name="back_to_pause_menu" type="Button" parent="MarginContainer/option_menu"]
+layout_mode = 2
+text = "Back to Main Menu"
+
+[node name="audio_menu" type="VBoxContainer" parent="MarginContainer"]
+visible = false
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/audio_menu"]
+layout_mode = 2
+text = "Master "
+
+[node name="Master" type="HSlider" parent="MarginContainer/audio_menu"]
+layout_mode = 2
+max_value = 1.0
+step = 0.001
+script = ExtResource("1_68h54")
+bus_name = "Master"
+
+[node name="Label2" type="Label" parent="MarginContainer/audio_menu"]
+layout_mode = 2
+text = "SFX"
+
+[node name="SFX" type="HSlider" parent="MarginContainer/audio_menu"]
+layout_mode = 2
+max_value = 1.0
+step = 0.001
+script = ExtResource("1_68h54")
+bus_name = "SFX"
+
+[node name="Label3" type="Label" parent="MarginContainer/audio_menu"]
+layout_mode = 2
+text = "Ambience"
+
+[node name="Ambience" type="HSlider" parent="MarginContainer/audio_menu"]
+layout_mode = 2
+max_value = 1.0
+step = 0.001
+script = ExtResource("1_68h54")
+bus_name = "Ambience"
+
+[node name="back_to_options" type="Button" parent="MarginContainer/audio_menu"]
+layout_mode = 2
+text = "Back to Options"
+
+[node name="control_menu" type="Control" parent="MarginContainer"]
+visible = false
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/control_menu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -249.0
+offset_top = -186.0
+offset_right = 249.0
+offset_bottom = 186.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="MarginContainer/control_menu/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/outline_size = 10
+text = "Forward: W
+Backwards: S
+Left: A
+Right: D
+Interact: E
+Shoot: Left Click
+Silent Crouch: Left Shift
+Pause: Esc"
+horizontal_alignment = 1
+
+[node name="back_to_options" type="Button" parent="MarginContainer/control_menu/VBoxContainer"]
+layout_mode = 2
+text = "Back to Options"
+
+[connection signal="pressed" from="MarginContainer/pause/options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="MarginContainer/pause/retry_current_level" to="." method="_on_retry_current_level_pressed"]
+[connection signal="pressed" from="MarginContainer/pause/main_menu" to="." method="_on_main_menu_pressed"]
+[connection signal="pressed" from="MarginContainer/option_menu/audio" to="." method="_on_audio_pressed"]
+[connection signal="pressed" from="MarginContainer/option_menu/controls" to="." method="_on_controls_pressed"]
+[connection signal="pressed" from="MarginContainer/option_menu/back_to_pause_menu" to="." method="_on_back_to_pause_menu_pressed"]
+[connection signal="pressed" from="MarginContainer/audio_menu/back_to_options" to="." method="_on_back_to_options_pressed"]
+[connection signal="pressed" from="MarginContainer/control_menu/VBoxContainer/back_to_options" to="." method="_on_back_to_options_pressed"]

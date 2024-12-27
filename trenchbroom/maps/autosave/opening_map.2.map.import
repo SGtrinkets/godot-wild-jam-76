@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://sw2m5021avb7"
+path="res://.godot/imported/opening_map.2.map-6716d051a6ab2f123beae2e7c7d44f5a.tres"
+
+[deps]
+
+source_file="res://trenchbroom/maps/autosave/opening_map.2.map"
+dest_files=["res://.godot/imported/opening_map.2.map-6716d051a6ab2f123beae2e7c7d44f5a.tres"]
+
+[params]
+

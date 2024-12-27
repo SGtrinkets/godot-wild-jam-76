@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0ua45r2b8x2s"]
+
+[ext_resource type="PackedScene" uid="uid://chmohrl4pyo2u" path="res://assets/Props/lightbulb v3/lightbulb v3.glb" id="1_nxjiu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qpioc"]
+emission_enabled = true
+emission = Color(0.899258, 0.899258, 0.899258, 1)
+emission_energy_multiplier = 2.45
+subsurf_scatter_enabled = true
+
+[node name="lightbulb v3" instance=ExtResource("1_nxjiu")]
+transform = Transform3D(2.045, 0, 0, 0, 2.045, 0, 0, 0, 2.045, 0, 0, 0)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0495103, 0)
+radius = 0.04
+material = SubResource("StandardMaterial3D_qpioc")

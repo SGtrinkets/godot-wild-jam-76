@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://drrsm2k8v0f7o"]
+
+[ext_resource type="Texture2D" uid="uid://dy718j8pjhfu6" path="res://assets/textures/world/PaintedWood007B_1K-PNG_Color.png" id="1_p8g7t"]
+
+[resource]
+albedo_texture = ExtResource("1_p8g7t")
+metallic_specular = 0.0
+texture_filter = 2

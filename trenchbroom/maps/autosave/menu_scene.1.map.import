@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://c3jk1kp2qk5pm"
+path="res://.godot/imported/menu_scene.1.map-ff4207dad5188f0a15b1c64e6fe09052.tres"
+
+[deps]
+
+source_file="res://trenchbroom/maps/autosave/menu_scene.1.map"
+dest_files=["res://.godot/imported/menu_scene.1.map-ff4207dad5188f0a15b1c64e6fe09052.tres"]
+
+[params]
+

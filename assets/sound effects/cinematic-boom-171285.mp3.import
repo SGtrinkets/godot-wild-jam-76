@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bux8tba874m1n"
+path="res://.godot/imported/cinematic-boom-171285.mp3-86f5e36bb18e4624501f682461433f81.mp3str"
+
+[deps]
+
+source_file="res://assets/sound effects/cinematic-boom-171285.mp3"
+dest_files=["res://.godot/imported/cinematic-boom-171285.mp3-86f5e36bb18e4624501f682461433f81.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

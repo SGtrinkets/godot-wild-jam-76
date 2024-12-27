@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://vyxxqn2d5uh0"
+path="res://.godot/imported/Over 10 Hours of Supermarket Refrigerator White Noise.wav-ad056df5628ac4aecbfa27dde37b8aae.sample"
+
+[deps]
+
+source_file="res://assets/sound effects/Over 10 Hours of Supermarket Refrigerator White Noise.wav"
+dest_files=["res://.godot/imported/Over 10 Hours of Supermarket Refrigerator White Noise.wav-ad056df5628ac4aecbfa27dde37b8aae.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

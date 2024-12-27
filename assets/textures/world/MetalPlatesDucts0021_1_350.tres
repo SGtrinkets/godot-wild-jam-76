@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://6new7a85khuo"]
+
+[ext_resource type="Texture2D" uid="uid://bitv728oe67g2" path="res://assets/textures/world/MetalPlatesDucts0021_1_350.jpg" id="1_ncsis"]
+
+[resource]
+albedo_texture = ExtResource("1_ncsis")
+metallic_specular = 0.0
+texture_filter = 2

@@ -1,0 +1,64 @@
+[gd_scene load_steps=9 format=3 uid="uid://botbhb2pk52pu"]
+
+[ext_resource type="Script" path="res://scripts/bullet.gd" id="1_m8m83"]
+[ext_resource type="Texture2D" uid="uid://yviujdkjjkib" path="res://assets/textures/others/blue_steel.png" id="2_njdjg"]
+[ext_resource type="AudioStream" uid="uid://d0225w0qy88f8" path="res://assets/sound effects/ice-crackling-168594.wav" id="3_2bc0m"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_md27p"]
+albedo_color = Color(9.2411e-06, 0.952197, 0.952886, 1)
+emission_enabled = true
+emission = Color(0.245332, 0.856571, 0.99792, 1)
+emission_energy_multiplier = 5.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_eid7w"]
+material = SubResource("StandardMaterial3D_md27p")
+size = Vector3(0.1, 0.1, 1)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_x6hw1"]
+direction = Vector3(0, 0, 1)
+spread = 64.547
+initial_velocity_min = 3.0
+initial_velocity_max = 5.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_if3cm"]
+albedo_texture = ExtResource("2_njdjg")
+emission_enabled = true
+emission = Color(0.270352, 0.82685, 0.958911, 1)
+emission_energy_multiplier = 8.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_h5ltx"]
+material = SubResource("StandardMaterial3D_if3cm")
+size = Vector3(0.05, 0.05, 0.05)
+
+[node name="bullet" type="Node3D"]
+script = ExtResource("1_m8m83")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_eid7w")
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, -1.13642)
+target_position = Vector3(0, -0.99, 0)
+collision_mask = 2
+hit_from_inside = true
+collide_with_areas = true
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="." groups=["bullet"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.11039)
+emitting = false
+amount = 18
+lifetime = 2.0
+one_shot = true
+speed_scale = 2.01
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_x6hw1")
+draw_pass_1 = SubResource("BoxMesh_h5ltx")
+
+[node name="freeze" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("3_2bc0m")
+bus = &"SFX"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true
+autostart = true

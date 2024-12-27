@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dbotetah4b8k7"
+path="res://.godot/imported/Refrigerator Fan Noise for Sleeping - 4 Hours.wav-a391f089c0fea29199fc01df95fc6af7.sample"
+
+[deps]
+
+source_file="res://assets/sound effects/Refrigerator Fan Noise for Sleeping - 4 Hours.wav"
+dest_files=["res://.godot/imported/Refrigerator Fan Noise for Sleeping - 4 Hours.wav-a391f089c0fea29199fc01df95fc6af7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

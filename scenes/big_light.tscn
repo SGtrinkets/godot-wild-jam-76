@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dr3nk6fcse3is"]
+
+[ext_resource type="PackedScene" uid="uid://chmohrl4pyo2u" path="res://assets/Props/lightbulb v3/lightbulb v3.glb" id="1_c34h7"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_2cn7g"]
+radius = 0.14
+height = 0.095
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ndeen"]
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 4.32
+
+[node name="big light" instance=ExtResource("1_c34h7")]
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0600468, 0)
+mesh = SubResource("SphereMesh_2cn7g")
+material = SubResource("StandardMaterial3D_ndeen")

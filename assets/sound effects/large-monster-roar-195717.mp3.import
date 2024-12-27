@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dp2jwm1sgdetq"
+path="res://.godot/imported/large-monster-roar-195717.mp3-6d3aa11448588928a3363696ae84b4af.mp3str"
+
+[deps]
+
+source_file="res://assets/sound effects/large-monster-roar-195717.mp3"
+dest_files=["res://.godot/imported/large-monster-roar-195717.mp3-6d3aa11448588928a3363696ae84b4af.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

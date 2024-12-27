@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://bc1jxptu2g23h"]
+
+[ext_resource type="Script" path="res://scripts/ice_block.gd" id="1_e10w7"]
+[ext_resource type="Texture2D" uid="uid://dkghfgqohnj2f" path="res://assets/textures/world/ice.jpg" id="2_dnnl1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o3nr2"]
+transparency = 1
+blend_mode = 1
+cull_mode = 2
+albedo_color = Color(0.900879, 0.939209, 0.939984, 1)
+albedo_texture = ExtResource("2_dnnl1")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dcg7d"]
+size = Vector3(0.97226, 2.83598, 2.27861)
+
+[node name="ice_block" type="Area3D"]
+script = ExtResource("1_e10w7")
+
+[node name="block" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(0.775605, 3.47424, 1.99008)
+material = SubResource("StandardMaterial3D_o3nr2")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.076064, 0.0698589, 0.04254)
+shape = SubResource("BoxShape3D_dcg7d")

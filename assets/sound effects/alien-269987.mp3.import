@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5aea17ibgjhl"
+path="res://.godot/imported/alien-269987.mp3-81ab5722f9e0ce49d2f7dc5a64f8e857.mp3str"
+
+[deps]
+
+source_file="res://assets/sound effects/alien-269987.mp3"
+dest_files=["res://.godot/imported/alien-269987.mp3-81ab5722f9e0ce49d2f7dc5a64f8e857.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

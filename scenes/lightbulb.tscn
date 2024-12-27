@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://cxbccjskqsclv"]
+
+[node name="lightbulb" type="Node3D"]

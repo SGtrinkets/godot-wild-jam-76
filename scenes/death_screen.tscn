@@ -1,0 +1,101 @@
+[gd_scene load_steps=8 format=3 uid="uid://c63hg6umaswge"]
+
+[ext_resource type="Texture2D" uid="uid://7rjepg3fukqn" path="res://assets/textures/others/ice for vignette.png" id="1_5np2f"]
+[ext_resource type="FontFile" uid="uid://bdlne10laemyt" path="res://assets/fonts/DEATH_FONT.TTF" id="1_p252b"]
+[ext_resource type="Script" path="res://scripts/death_screen.gd" id="1_tv6qr"]
+[ext_resource type="AudioStream" uid="uid://bux8tba874m1n" path="res://assets/sound effects/cinematic-boom-171285.mp3" id="3_4umdq"]
+[ext_resource type="FontFile" uid="uid://cqrmg2pbgfopy" path="res://assets/fonts/absender1.ttf" id="5_5k4gn"]
+
+[sub_resource type="Animation" id="Animation_ilfas"]
+resource_name = "death_screen"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_umsge"]
+_data = {
+"death_screen": SubResource("Animation_ilfas")
+}
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tv6qr")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_umsge")
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_5np2f")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -108.5
+offset_top = -31.0
+offset_right = 108.5
+offset_bottom = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.431283, 0.611583, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_p252b")
+theme_override_font_sizes/font_size = 61
+text = "You DieD"
+
+[node name="death_sound" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("3_4umdq")
+volume_db = -10.257
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -75.0
+offset_top = 60.0
+offset_right = 75.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 175
+
+[node name="retry" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_fonts/font = ExtResource("5_5k4gn")
+theme_override_font_sizes/font_size = 41
+text = "Retry"
+
+[node name="menu" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_5k4gn")
+theme_override_font_sizes/font_size = 41
+text = "Main Menu"
+
+[connection signal="pressed" from="HBoxContainer/retry" to="." method="_on_retry_pressed"]
+[connection signal="pressed" from="HBoxContainer/menu" to="." method="_on_menu_pressed"]

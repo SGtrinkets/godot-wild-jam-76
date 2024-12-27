@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bx60fygcwgncw"]
+
+[ext_resource type="PackedScene" uid="uid://ceeush7nbcfmp" path="res://assets/lightbulb v2.glb" id="1_74ej6"]
+
+[sub_resource type="Environment" id="Environment_hyyuc"]
+
+[node name="lightbulb v2" instance=ExtResource("1_74ej6")]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.177258, 0)
+light_energy = 9.296
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." index="2"]
+environment = SubResource("Environment_hyyuc")

@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://b5iexislfj141"]
+
+[ext_resource type="PackedScene" uid="uid://cx4pnikaatfa3" path="res://assets/Props/key.glb" id="1_8cspp"]
+[ext_resource type="Texture2D" uid="uid://c1fbs70ax3wg4" path="res://assets/textures/others/gold_texture.png" id="2_4om3c"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_18xje"]
+albedo_texture = ExtResource("2_4om3c")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y113k"]
+size = Vector3(0.3, 0.3, 0.137)
+
+[node name="key" instance=ExtResource("1_8cspp")]
+transform = Transform3D(1.675, 0, 0, 0, 1.675, 0, 0, 0, 1.675, 0, 0, 0)
+
+[node name="Key" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_18xje")
+
+[node name="Area3D" type="Area3D" parent="." index="1"]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" index="0" groups=["key"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00168745, 0.146214, 0.00360108)
+shape = SubResource("BoxShape3D_y113k")

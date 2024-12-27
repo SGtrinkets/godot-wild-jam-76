@@ -1,0 +1,964 @@
+// Game: Godot Wild Jam 76
+// Format: Valve
+// entity 0
+{
+"mapversion" "220"
+"wad" ""
+"classname" "worldspawn"
+"_tb_mod" "assets"
+"_tb_textures" "textures;textures\world"
+// brush 0
+{
+( -64 -64 -16 ) ( -64 -63 -16 ) ( -64 -64 -15 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -64 -64 -16 ) ( -64 -64 -15 ) ( -63 -64 -16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -64 -64 -16 ) ( -63 -64 -16 ) ( -64 -63 -16 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 64 64 16 ) ( 64 65 16 ) ( 65 64 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 64 64 16 ) ( 65 64 16 ) ( 64 64 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 64 64 16 ) ( 64 64 17 ) ( 64 65 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 1
+{
+( -32 -304 0 ) ( -32 -303 0 ) ( -32 -304 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 -304 0 ) ( -32 -304 1 ) ( -31 -304 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 -304 0 ) ( -31 -304 0 ) ( -32 -303 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 -64 16 ) ( 32 -63 16 ) ( 33 -64 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 -64 16 ) ( 33 -64 16 ) ( 32 -64 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 -64 16 ) ( 32 -64 17 ) ( 32 -63 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 2
+{
+( -256 64 0 ) ( -256 65 0 ) ( -256 64 1 ) world/Metal053C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 64 0 ) ( -256 64 1 ) ( -255 64 0 ) world/Metal053C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 64 0 ) ( -255 64 0 ) ( -256 65 0 ) world/Metal053C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 240 384 16 ) ( 240 385 16 ) ( 241 384 16 ) world/Metal053C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 240 384 16 ) ( 241 384 16 ) ( 240 384 17 ) world/Metal053C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 240 384 16 ) ( 240 384 17 ) ( 240 385 16 ) world/Metal053C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 3
+{
+( -528 160 0 ) ( -528 161 0 ) ( -528 160 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -528 160 0 ) ( -528 160 1 ) ( -527 160 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -528 160 0 ) ( -527 160 0 ) ( -528 161 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -256 272 16 ) ( -256 273 16 ) ( -255 272 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -256 272 16 ) ( -255 272 16 ) ( -256 272 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -256 272 16 ) ( -256 272 17 ) ( -256 273 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 4
+{
+( -672 160 0 ) ( -672 161 0 ) ( -672 160 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -672 160 0 ) ( -672 160 1 ) ( -671 160 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -672 160 0 ) ( -671 160 0 ) ( -672 161 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -528 528 16 ) ( -528 529 16 ) ( -527 528 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -528 528 16 ) ( -527 528 16 ) ( -528 528 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -528 528 16 ) ( -528 528 17 ) ( -528 529 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 5
+{
+( 512 160 0 ) ( 512 161 0 ) ( 512 160 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 512 160 0 ) ( 512 160 1 ) ( 513 160 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 512 160 0 ) ( 513 160 0 ) ( 512 161 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 656 528 16 ) ( 656 529 16 ) ( 657 528 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 656 528 16 ) ( 657 528 16 ) ( 656 528 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 656 528 16 ) ( 656 528 17 ) ( 656 529 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 6
+{
+( 240 160 0 ) ( 240 161 0 ) ( 240 160 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 240 160 0 ) ( 240 160 1 ) ( 241 160 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 240 160 0 ) ( 241 160 0 ) ( 240 161 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 512 272 16 ) ( 512 273 16 ) ( 513 272 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 512 272 16 ) ( 513 272 16 ) ( 512 272 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 512 272 16 ) ( 512 272 17 ) ( 512 273 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 7
+{
+( 464 528 0 ) ( 464 529 0 ) ( 464 528 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 464 528 0 ) ( 464 528 1 ) ( 465 528 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 464 528 0 ) ( 465 528 0 ) ( 464 529 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 720 656 16 ) ( 720 657 16 ) ( 721 656 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 720 656 16 ) ( 721 656 16 ) ( 720 656 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 704 624 16 ) ( 704 592 16 ) ( 704 592 144 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 8
+{
+( -160 384 0 ) ( -160 385 0 ) ( -160 384 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -160 384 0 ) ( -160 384 1 ) ( -159 384 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -160 384 0 ) ( -159 384 0 ) ( -160 385 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -96 848 16 ) ( -96 849 16 ) ( -95 848 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -96 848 16 ) ( -95 848 16 ) ( -96 848 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 848 16 ) ( -96 848 17 ) ( -96 849 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 9
+{
+( -32 384 0 ) ( -32 385 0 ) ( -32 384 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 384 0 ) ( -32 384 1 ) ( -31 384 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 384 0 ) ( -31 384 0 ) ( -32 385 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 848 16 ) ( 32 849 16 ) ( 33 848 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 848 16 ) ( 33 848 16 ) ( 32 848 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 848 16 ) ( 32 848 17 ) ( 32 849 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 10
+{
+( 96 384 0 ) ( 96 385 0 ) ( 96 384 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 96 384 0 ) ( 96 384 1 ) ( 97 384 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 96 384 0 ) ( 97 384 0 ) ( 96 385 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 160 848 16 ) ( 160 849 16 ) ( 161 848 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 160 848 16 ) ( 161 848 16 ) ( 160 848 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 848 16 ) ( 160 848 17 ) ( 160 849 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 11
+{
+( 512 160 144 ) ( 512 161 144 ) ( 512 160 145 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 160 144 ) ( 512 160 145 ) ( 513 160 144 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 160 144 ) ( 513 160 144 ) ( 512 161 144 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 656 528 160 ) ( 656 529 160 ) ( 657 528 160 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 656 528 160 ) ( 657 528 160 ) ( 656 528 161 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 656 528 160 ) ( 656 528 161 ) ( 656 529 160 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 12
+{
+( 240 160 144 ) ( 240 161 144 ) ( 240 160 145 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 240 160 144 ) ( 240 160 145 ) ( 241 160 144 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 240 160 144 ) ( 241 160 144 ) ( 240 161 144 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 272 160 ) ( 512 273 160 ) ( 513 272 160 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 272 160 ) ( 513 272 160 ) ( 512 272 161 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 272 160 ) ( 512 272 161 ) ( 512 273 160 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 13
+{
+( -256 64 144 ) ( -256 65 144 ) ( -256 64 145 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 64 144 ) ( -256 64 145 ) ( -255 64 144 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 64 144 ) ( -255 64 144 ) ( -256 65 144 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 240 384 160 ) ( 240 385 160 ) ( 241 384 160 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 240 384 160 ) ( 241 384 160 ) ( 240 384 161 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 240 384 160 ) ( 240 384 161 ) ( 240 385 160 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 14
+{
+( -528 160 144 ) ( -528 161 144 ) ( -528 160 145 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -528 160 144 ) ( -528 160 145 ) ( -527 160 144 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -528 160 144 ) ( -527 160 144 ) ( -528 161 144 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 272 160 ) ( -256 273 160 ) ( -255 272 160 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 272 160 ) ( -255 272 160 ) ( -256 272 161 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 272 160 ) ( -256 272 161 ) ( -256 273 160 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 15
+{
+( -672 160 144 ) ( -672 161 144 ) ( -672 160 145 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -672 160 144 ) ( -672 160 145 ) ( -671 160 144 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -672 160 144 ) ( -671 160 144 ) ( -672 161 144 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -528 528 160 ) ( -528 529 160 ) ( -527 528 160 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -528 528 160 ) ( -527 528 160 ) ( -528 528 161 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -528 528 160 ) ( -528 528 161 ) ( -528 529 160 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 16
+{
+( 688 528 16 ) ( 688 529 16 ) ( 688 528 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 688 528 16 ) ( 688 528 17 ) ( 689 528 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 688 528 16 ) ( 689 528 16 ) ( 688 529 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 704 656 96 ) ( 704 657 96 ) ( 705 656 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 704 656 96 ) ( 705 656 96 ) ( 704 656 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 704 656 96 ) ( 704 656 97 ) ( 704 657 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 17
+{
+( 464 528 16 ) ( 464 529 16 ) ( 464 528 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 464 528 16 ) ( 464 528 17 ) ( 465 528 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 464 528 16 ) ( 465 528 16 ) ( 464 529 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 480 656 96 ) ( 480 657 96 ) ( 481 656 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 480 656 96 ) ( 481 656 96 ) ( 480 656 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 480 656 96 ) ( 480 656 97 ) ( 480 657 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 18
+{
+( 480 640 16 ) ( 480 641 16 ) ( 480 640 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 480 640 16 ) ( 480 640 17 ) ( 481 640 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 480 640 16 ) ( 481 640 16 ) ( 480 641 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 688 656 96 ) ( 688 657 96 ) ( 689 656 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 688 656 96 ) ( 689 656 96 ) ( 688 656 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 688 656 96 ) ( 688 656 97 ) ( 688 657 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 19
+{
+( 640 160 16 ) ( 640 161 16 ) ( 640 160 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 640 160 16 ) ( 640 160 17 ) ( 641 160 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 640 160 16 ) ( 641 160 16 ) ( 640 161 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 656 528 144 ) ( 656 529 144 ) ( 657 528 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 656 528 144 ) ( 657 528 144 ) ( 656 528 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 656 528 144 ) ( 656 528 145 ) ( 656 529 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 20
+{
+( 240 160 16 ) ( 240 161 16 ) ( 240 160 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 240 160 16 ) ( 240 160 17 ) ( 241 160 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 240 160 16 ) ( 241 160 16 ) ( 240 161 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 640 176 144 ) ( 640 177 144 ) ( 641 176 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 640 176 144 ) ( 641 176 144 ) ( 640 176 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 640 176 144 ) ( 640 176 145 ) ( 640 177 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 21
+{
+( 240 256 16 ) ( 240 257 16 ) ( 240 256 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 240 256 16 ) ( 240 256 17 ) ( 241 256 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 240 256 16 ) ( 241 256 16 ) ( 240 257 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 528 272 144 ) ( 528 273 144 ) ( 529 272 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 528 272 144 ) ( 529 272 144 ) ( 528 272 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 528 272 144 ) ( 528 272 145 ) ( 528 273 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 22
+{
+( 512 272 16 ) ( 512 273 16 ) ( 512 272 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 512 272 16 ) ( 512 272 17 ) ( 513 272 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 512 272 16 ) ( 513 272 16 ) ( 512 273 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 528 528 144 ) ( 528 529 144 ) ( 529 528 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 528 528 144 ) ( 529 528 144 ) ( 528 528 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 528 528 144 ) ( 528 528 145 ) ( 528 529 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 23
+{
+( 480 528 16 ) ( 480 529 16 ) ( 480 528 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 480 528 16 ) ( 480 528 17 ) ( 481 528 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 480 528 16 ) ( 481 528 16 ) ( 480 529 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 528 544 96 ) ( 528 545 96 ) ( 529 544 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 528 544 96 ) ( 529 544 96 ) ( 528 544 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 528 544 96 ) ( 528 544 97 ) ( 528 545 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 24
+{
+( 640 528 16 ) ( 640 529 16 ) ( 640 528 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 640 528 16 ) ( 640 528 17 ) ( 641 528 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 640 528 16 ) ( 641 528 16 ) ( 640 529 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 688 544 96 ) ( 688 545 96 ) ( 689 544 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 688 544 96 ) ( 689 544 96 ) ( 688 544 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 688 544 96 ) ( 688 544 97 ) ( 688 545 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 25
+{
+( -672 160 16 ) ( -672 161 16 ) ( -672 160 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -672 160 16 ) ( -672 160 17 ) ( -671 160 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -672 160 16 ) ( -671 160 16 ) ( -672 161 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -272 176 144 ) ( -272 177 144 ) ( -271 176 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -272 176 144 ) ( -271 176 144 ) ( -272 176 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -272 176 144 ) ( -272 176 145 ) ( -272 177 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 26
+{
+( -544 256 16 ) ( -544 257 16 ) ( -544 256 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -544 256 16 ) ( -544 256 17 ) ( -543 256 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -544 256 16 ) ( -543 256 16 ) ( -544 257 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -256 272 144 ) ( -256 273 144 ) ( -255 272 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -256 272 144 ) ( -255 272 144 ) ( -256 272 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -256 272 144 ) ( -256 272 145 ) ( -256 273 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 27
+{
+( -672 176 16 ) ( -672 177 16 ) ( -672 176 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -672 176 16 ) ( -672 176 17 ) ( -671 176 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -672 176 16 ) ( -671 176 16 ) ( -672 177 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -656 528 144 ) ( -656 529 144 ) ( -655 528 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -656 528 144 ) ( -655 528 144 ) ( -656 528 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -656 528 144 ) ( -656 528 145 ) ( -656 529 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 28
+{
+( -720 640 16 ) ( -720 641 16 ) ( -720 640 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -720 640 16 ) ( -720 640 17 ) ( -719 640 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -720 640 16 ) ( -719 640 16 ) ( -720 641 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -480 656 96 ) ( -480 657 96 ) ( -479 656 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -480 656 96 ) ( -479 656 96 ) ( -480 656 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -480 656 96 ) ( -480 656 97 ) ( -480 657 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 29
+{
+( -496 528 16 ) ( -496 529 16 ) ( -496 528 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -496 528 16 ) ( -496 528 17 ) ( -495 528 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -496 528 16 ) ( -495 528 16 ) ( -496 529 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -480 640 96 ) ( -480 641 96 ) ( -479 640 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -480 640 96 ) ( -479 640 96 ) ( -480 640 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -480 640 96 ) ( -480 640 97 ) ( -480 641 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 30
+{
+( -720 528 16 ) ( -720 529 16 ) ( -720 528 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -720 528 16 ) ( -720 528 17 ) ( -719 528 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -720 528 16 ) ( -719 528 16 ) ( -720 529 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -656 544 96 ) ( -656 545 96 ) ( -655 544 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -656 544 96 ) ( -655 544 96 ) ( -656 544 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -656 544 96 ) ( -656 544 97 ) ( -656 545 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 31
+{
+( -720 544 16 ) ( -720 545 16 ) ( -720 544 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -720 544 16 ) ( -720 544 17 ) ( -719 544 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -720 544 16 ) ( -719 544 16 ) ( -720 545 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -704 640 96 ) ( -704 641 96 ) ( -703 640 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -704 640 96 ) ( -703 640 96 ) ( -704 640 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -704 640 96 ) ( -704 640 97 ) ( -704 641 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 32
+{
+( -544 272 16 ) ( -544 273 16 ) ( -544 272 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -544 272 16 ) ( -544 272 17 ) ( -543 272 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -544 272 16 ) ( -543 272 16 ) ( -544 273 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -528 528 144 ) ( -528 529 144 ) ( -527 528 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -528 528 144 ) ( -527 528 144 ) ( -528 528 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -528 528 144 ) ( -528 528 145 ) ( -528 529 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 33
+{
+( -544 528 16 ) ( -544 529 16 ) ( -544 528 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -544 528 16 ) ( -544 528 17 ) ( -543 528 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -544 528 16 ) ( -543 528 16 ) ( -544 529 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -480 544 96 ) ( -480 545 96 ) ( -479 544 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -480 544 96 ) ( -479 544 96 ) ( -480 544 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -480 544 96 ) ( -480 544 97 ) ( -480 545 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 34
+{
+( -160 848 16 ) ( -160 1040 0 ) ( -160 1040 16 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 848 16 ) ( -160 848 0 ) ( -160 848 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 1040 0 ) ( -160 848 0 ) ( -96 848 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -96 1040 16 ) ( -160 848 16 ) ( -160 1040 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -96 1040 16 ) ( -160 1040 0 ) ( -96 1040 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 1040 16 ) ( -96 848 0 ) ( -96 848 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 35
+{
+( -32 848 16 ) ( -32 1040 0 ) ( -32 1040 16 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 848 16 ) ( -32 848 0 ) ( -32 848 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 1040 0 ) ( -32 848 0 ) ( 32 848 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 1040 16 ) ( -32 848 16 ) ( -32 1040 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 1040 16 ) ( -32 1040 0 ) ( 32 1040 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 1040 16 ) ( 32 848 0 ) ( 32 848 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 36
+{
+( 96 848 16 ) ( 96 1040 0 ) ( 96 1040 16 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 848 16 ) ( 96 848 0 ) ( 96 848 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 1040 0 ) ( 96 848 0 ) ( 160 848 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 160 1040 16 ) ( 96 848 16 ) ( 96 1040 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 160 1040 16 ) ( 96 1040 0 ) ( 160 1040 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 1040 16 ) ( 160 848 0 ) ( 160 848 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 37
+{
+( 240 64 0 ) ( 240 65 0 ) ( 240 64 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 240 64 0 ) ( 240 64 1 ) ( 241 64 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 240 64 0 ) ( 241 64 0 ) ( 240 65 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 256 160 144 ) ( 256 161 144 ) ( 257 160 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 256 160 144 ) ( 257 160 144 ) ( 256 160 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 256 160 144 ) ( 256 160 145 ) ( 256 161 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 38
+{
+( 64 48 0 ) ( 64 49 0 ) ( 64 48 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 64 48 0 ) ( 64 48 1 ) ( 65 48 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 64 48 0 ) ( 65 48 0 ) ( 64 49 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 256 64 144 ) ( 256 65 144 ) ( 257 64 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 256 64 144 ) ( 257 64 144 ) ( 256 64 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 256 64 144 ) ( 256 64 145 ) ( 256 65 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 39
+{
+( -256 48 0 ) ( -256 49 0 ) ( -256 48 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -256 48 0 ) ( -256 48 1 ) ( -255 48 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -256 48 0 ) ( -255 48 0 ) ( -256 49 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -64 64 144 ) ( -64 65 144 ) ( -63 64 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -64 64 144 ) ( -63 64 144 ) ( -64 64 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -64 64 144 ) ( -64 64 145 ) ( -64 65 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 40
+{
+( -272 64 16 ) ( -272 65 16 ) ( -272 64 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -272 64 16 ) ( -272 64 17 ) ( -271 64 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -272 64 16 ) ( -271 64 16 ) ( -272 65 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -256 176 144 ) ( -256 177 144 ) ( -255 176 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -256 176 144 ) ( -255 176 144 ) ( -256 176 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -256 176 144 ) ( -256 176 145 ) ( -256 177 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 41
+{
+( -272 272 16 ) ( -272 273 16 ) ( -272 272 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -272 272 16 ) ( -272 272 17 ) ( -271 272 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -272 272 16 ) ( -271 272 16 ) ( -272 273 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -256 384 144 ) ( -256 385 144 ) ( -255 384 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -256 384 144 ) ( -255 384 144 ) ( -256 384 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -256 384 144 ) ( -256 384 145 ) ( -256 385 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 42
+{
+( -256 384 0 ) ( -256 385 0 ) ( -256 384 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -256 384 0 ) ( -256 384 1 ) ( -255 384 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -256 384 0 ) ( -255 384 0 ) ( -256 385 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -176 400 144 ) ( -176 401 144 ) ( -175 400 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -176 400 144 ) ( -175 400 144 ) ( -176 400 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -176 400 144 ) ( -176 400 145 ) ( -176 401 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 43
+{
+( 176 384 0 ) ( 176 385 0 ) ( 176 384 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 176 384 0 ) ( 176 384 1 ) ( 177 384 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 176 384 0 ) ( 177 384 0 ) ( 176 385 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 256 400 144 ) ( 256 401 144 ) ( 257 400 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 256 400 144 ) ( 257 400 144 ) ( 256 400 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 256 400 144 ) ( 256 400 145 ) ( 256 401 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 44
+{
+( 240 272 16 ) ( 240 273 16 ) ( 240 272 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 240 272 16 ) ( 240 272 17 ) ( 241 272 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 240 272 16 ) ( 241 272 16 ) ( 240 273 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 256 384 144 ) ( 256 385 144 ) ( 257 384 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 256 384 144 ) ( 257 384 144 ) ( 256 384 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 256 384 144 ) ( 256 384 145 ) ( 256 385 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 45
+{
+( -176 384 112 ) ( -176 385 112 ) ( -176 384 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -176 384 112 ) ( -176 384 113 ) ( -175 384 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -176 384 112 ) ( -175 384 112 ) ( -176 385 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 176 400 144 ) ( 176 401 144 ) ( 177 400 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 176 400 144 ) ( 177 400 144 ) ( 176 400 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 176 400 144 ) ( 176 400 145 ) ( 176 401 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 46
+{
+( -224 1040 0 ) ( -224 1041 0 ) ( -224 1040 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -224 1040 0 ) ( -224 1040 1 ) ( -223 1040 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -224 1040 0 ) ( -223 1040 0 ) ( -224 1041 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 208 1280 16 ) ( 208 1281 16 ) ( 209 1280 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 208 1280 16 ) ( 209 1280 16 ) ( 208 1280 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 208 1280 16 ) ( 208 1280 17 ) ( 208 1281 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 47
+{
+( -32 1280 0 ) ( -32 1281 0 ) ( -32 1280 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 1280 0 ) ( -32 1280 1 ) ( -31 1280 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 1280 0 ) ( -31 1280 0 ) ( -32 1281 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 1456 16 ) ( 32 1457 16 ) ( 33 1456 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 1456 16 ) ( 33 1456 16 ) ( 32 1456 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 1456 16 ) ( 32 1456 17 ) ( 32 1457 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 48
+{
+( -224 1040 128 ) ( -224 1041 128 ) ( -224 1040 129 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -224 1040 128 ) ( -224 1040 129 ) ( -223 1040 128 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -224 1040 128 ) ( -223 1040 128 ) ( -224 1041 128 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 208 1280 144 ) ( 208 1281 144 ) ( 209 1280 144 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 208 1280 144 ) ( 209 1280 144 ) ( 208 1280 145 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 208 1280 144 ) ( 208 1280 145 ) ( 208 1281 144 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 49
+{
+( 192 1040 16 ) ( 192 1041 16 ) ( 192 1040 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 192 1040 16 ) ( 192 1040 17 ) ( 193 1040 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 192 1040 16 ) ( 193 1040 16 ) ( 192 1041 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 208 1280 128 ) ( 208 1281 128 ) ( 209 1280 128 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 208 1280 128 ) ( 209 1280 128 ) ( 208 1280 129 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 208 1280 128 ) ( 208 1280 129 ) ( 208 1281 128 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 50
+{
+( -224 1040 16 ) ( -224 1041 16 ) ( -224 1040 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -224 1040 16 ) ( -224 1040 17 ) ( -223 1040 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -224 1040 16 ) ( -223 1040 16 ) ( -224 1041 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -208 1280 128 ) ( -208 1281 128 ) ( -207 1280 128 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -208 1280 128 ) ( -207 1280 128 ) ( -208 1280 129 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -208 1280 128 ) ( -208 1280 129 ) ( -208 1281 128 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 51
+{
+( 32 1280 96 ) ( 32 1280 64 ) ( 32 1408 64 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -208 1264 16 ) ( -208 1264 17 ) ( -207 1264 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -208 1264 16 ) ( -207 1264 16 ) ( -208 1265 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 192 1280 128 ) ( 192 1281 128 ) ( 193 1280 128 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 192 1280 128 ) ( 193 1280 128 ) ( 192 1280 129 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 192 1280 128 ) ( 192 1280 129 ) ( 192 1281 128 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 52
+{
+( -208 1264 16 ) ( -208 1265 16 ) ( -208 1264 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -208 1264 16 ) ( -208 1264 17 ) ( -207 1264 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -208 1264 16 ) ( -207 1264 16 ) ( -208 1265 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 192 1280 128 ) ( 192 1281 128 ) ( 193 1280 128 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 192 1280 128 ) ( 193 1280 128 ) ( 192 1280 129 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 1280 80 ) ( -32 1408 48 ) ( -32 1280 48 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 53
+{
+( -32 1280 80 ) ( -32 1280 48 ) ( -32 1408 48 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -208 1264 16 ) ( -208 1264 17 ) ( -207 1264 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 16 1280 96 ) ( -16 1408 96 ) ( -16 1280 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 192 1280 128 ) ( 192 1281 128 ) ( 193 1280 128 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 192 1280 128 ) ( 193 1280 128 ) ( 192 1280 129 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 1280 96 ) ( 32 1408 64 ) ( 32 1280 64 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 54
+{
+( -96 384 16 ) ( -96 385 16 ) ( -96 384 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -80 400 80 ) ( 48 400 48 ) ( -80 400 48 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 384 16 ) ( -95 384 16 ) ( -96 385 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -80 1040 96 ) ( -80 1041 96 ) ( -79 1040 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -80 1040 96 ) ( -79 1040 96 ) ( -80 1040 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -80 1040 96 ) ( -80 1040 97 ) ( -80 1041 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 55
+{
+( -160 384 96 ) ( -160 385 96 ) ( -160 384 97 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -144 400 112 ) ( -112 400 240 ) ( -112 400 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -160 384 96 ) ( -159 384 96 ) ( -160 385 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -96 848 112 ) ( -96 849 112 ) ( -95 848 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -96 848 112 ) ( -95 848 112 ) ( -96 848 113 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -96 848 112 ) ( -96 848 113 ) ( -96 849 112 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 56
+{
+( -176 384 16 ) ( -176 385 16 ) ( -176 384 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -160 400 80 ) ( -32 400 48 ) ( -160 400 48 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -176 384 16 ) ( -175 384 16 ) ( -176 385 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -160 1040 96 ) ( -160 1041 96 ) ( -159 1040 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -160 1040 96 ) ( -159 1040 96 ) ( -160 1040 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -160 1040 96 ) ( -160 1040 97 ) ( -160 1041 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 57
+{
+( -32 384 96 ) ( -32 385 96 ) ( -32 384 97 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -16 400 112 ) ( 16 400 240 ) ( 16 400 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 384 96 ) ( -31 384 96 ) ( -32 385 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 32 848 112 ) ( 32 849 112 ) ( 33 848 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 32 848 112 ) ( 33 848 112 ) ( 32 848 113 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 32 848 112 ) ( 32 848 113 ) ( 32 849 112 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 58
+{
+( 96 384 96 ) ( 96 385 96 ) ( 96 384 97 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 112 400 112 ) ( 144 400 240 ) ( 144 400 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 96 384 96 ) ( 97 384 96 ) ( 96 385 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 160 848 112 ) ( 160 849 112 ) ( 161 848 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 160 848 112 ) ( 161 848 112 ) ( 160 848 113 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 160 848 112 ) ( 160 848 113 ) ( 160 849 112 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 59
+{
+( -48 384 16 ) ( -48 385 16 ) ( -48 384 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 400 80 ) ( 96 400 48 ) ( -32 400 48 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -48 384 16 ) ( -47 384 16 ) ( -48 385 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -32 1040 96 ) ( -32 1041 96 ) ( -31 1040 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -32 1040 96 ) ( -31 1040 96 ) ( -32 1040 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 1040 96 ) ( -32 1040 97 ) ( -32 1041 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 60
+{
+( 32 384 16 ) ( 32 385 16 ) ( 32 384 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 48 400 80 ) ( 176 400 48 ) ( 48 400 48 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 384 16 ) ( 33 384 16 ) ( 32 385 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 48 1040 96 ) ( 48 1041 96 ) ( 49 1040 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 48 1040 96 ) ( 49 1040 96 ) ( 48 1040 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 48 1040 96 ) ( 48 1040 97 ) ( 48 1041 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 61
+{
+( 160 384 16 ) ( 160 385 16 ) ( 160 384 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 176 400 80 ) ( 304 400 48 ) ( 176 400 48 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 384 16 ) ( 161 384 16 ) ( 160 385 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 176 1040 96 ) ( 176 1041 96 ) ( 177 1040 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 176 1040 96 ) ( 177 1040 96 ) ( 176 1040 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 176 1040 96 ) ( 176 1040 97 ) ( 176 1041 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 62
+{
+( 80 384 16 ) ( 80 385 16 ) ( 80 384 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 96 400 80 ) ( 224 400 48 ) ( 96 400 48 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 80 384 16 ) ( 81 384 16 ) ( 80 385 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 96 1040 96 ) ( 96 1041 96 ) ( 97 1040 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 96 1040 96 ) ( 97 1040 96 ) ( 96 1040 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 96 1040 96 ) ( 96 1040 97 ) ( 96 1041 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 63
+{
+( -96 384 0 ) ( -96 385 0 ) ( -96 384 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 384 0 ) ( -96 384 1 ) ( -95 384 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 384 0 ) ( -95 384 0 ) ( -96 385 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -32 400 112 ) ( -32 401 112 ) ( -31 400 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -32 400 112 ) ( -31 400 112 ) ( -32 400 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 400 112 ) ( -32 400 113 ) ( -32 401 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 64
+{
+( 32 384 0 ) ( 32 385 0 ) ( 32 384 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 384 0 ) ( 32 384 1 ) ( 33 384 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 384 0 ) ( 33 384 0 ) ( 32 385 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 96 400 112 ) ( 96 401 112 ) ( 97 400 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 96 400 112 ) ( 97 400 112 ) ( 96 400 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 96 400 112 ) ( 96 400 113 ) ( 96 401 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 65
+{
+( 160 384 0 ) ( 160 385 0 ) ( 160 384 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 384 0 ) ( 160 384 1 ) ( 161 384 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 384 0 ) ( 161 384 0 ) ( 160 385 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 176 400 112 ) ( 176 401 112 ) ( 177 400 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 176 400 112 ) ( 177 400 112 ) ( 176 400 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 176 400 112 ) ( 176 400 113 ) ( 176 401 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 66
+{
+( 96 384 96 ) ( 96 385 96 ) ( 96 384 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 96 384 96 ) ( 96 384 97 ) ( 97 384 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 96 384 96 ) ( 97 384 96 ) ( 96 385 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 160 400 112 ) ( 160 401 112 ) ( 161 400 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 160 400 112 ) ( 161 400 112 ) ( 160 400 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 400 112 ) ( 160 400 113 ) ( 160 401 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 67
+{
+( -32 384 96 ) ( -32 385 96 ) ( -32 384 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 384 96 ) ( -32 384 97 ) ( -31 384 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 384 96 ) ( -31 384 96 ) ( -32 385 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 400 112 ) ( 32 401 112 ) ( 33 400 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 400 112 ) ( 33 400 112 ) ( 32 400 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 400 112 ) ( 32 400 113 ) ( 32 401 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 68
+{
+( -176 384 0 ) ( -176 385 0 ) ( -176 384 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -176 384 0 ) ( -176 384 1 ) ( -175 384 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -176 384 0 ) ( -175 384 0 ) ( -176 385 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -160 400 112 ) ( -160 401 112 ) ( -159 400 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -160 400 112 ) ( -159 400 112 ) ( -160 400 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -160 400 112 ) ( -160 400 113 ) ( -160 401 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 69
+{
+( -160 384 96 ) ( -160 385 96 ) ( -160 384 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -160 384 96 ) ( -160 384 97 ) ( -159 384 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -160 384 96 ) ( -159 384 96 ) ( -160 385 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -96 400 112 ) ( -96 401 112 ) ( -95 400 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -96 400 112 ) ( -95 400 112 ) ( -96 400 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 400 112 ) ( -96 400 113 ) ( -96 401 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 70
+{
+( -32 1280 96 ) ( -32 1281 96 ) ( -32 1280 97 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 1280 96 ) ( -32 1280 97 ) ( -31 1280 96 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 1280 96 ) ( -31 1280 96 ) ( -32 1281 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 32 1456 112 ) ( 32 1457 112 ) ( 33 1456 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 32 1456 112 ) ( 33 1456 112 ) ( 32 1456 113 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 32 1456 112 ) ( 32 1456 113 ) ( 32 1457 112 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 71
+{
+( 32 1280 0 ) ( 32 1281 0 ) ( 32 1280 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 1280 0 ) ( 32 1280 1 ) ( 33 1280 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 1280 0 ) ( 33 1280 0 ) ( 32 1281 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 48 1456 112 ) ( 48 1457 112 ) ( 49 1456 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 48 1456 112 ) ( 49 1456 112 ) ( 48 1456 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 48 1456 112 ) ( 48 1456 113 ) ( 48 1457 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 72
+{
+( -48 1280 0 ) ( -48 1281 0 ) ( -48 1280 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -48 1280 0 ) ( -48 1280 1 ) ( -47 1280 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -48 1280 0 ) ( -47 1280 0 ) ( -48 1281 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -32 1456 112 ) ( -32 1457 112 ) ( -31 1456 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -32 1456 112 ) ( -31 1456 112 ) ( -32 1456 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 1456 112 ) ( -32 1456 113 ) ( -32 1457 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 73
+{
+( -32 -304 112 ) ( -32 -303 112 ) ( -32 -304 113 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 -304 112 ) ( -32 -304 113 ) ( -31 -304 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 -304 112 ) ( -31 -304 112 ) ( -32 -303 112 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 32 -64 128 ) ( 32 -63 128 ) ( 33 -64 128 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 32 -64 128 ) ( 33 -64 128 ) ( 32 -64 129 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 32 -64 128 ) ( 32 -64 129 ) ( 32 -63 128 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 74
+{
+( -48 -304 0 ) ( -48 -303 0 ) ( -48 -304 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -48 -304 0 ) ( -48 -304 1 ) ( -47 -304 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -48 -304 0 ) ( -47 -304 0 ) ( -48 -303 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -32 -64 112 ) ( -32 -63 112 ) ( -31 -64 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -32 -64 112 ) ( -31 -64 112 ) ( -32 -64 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 -64 112 ) ( -32 -64 113 ) ( -32 -63 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 75
+{
+( 32 -304 0 ) ( 32 -303 0 ) ( 32 -304 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 -304 0 ) ( 32 -304 1 ) ( 33 -304 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 -304 0 ) ( 33 -304 0 ) ( 32 -303 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 48 -64 112 ) ( 48 -63 112 ) ( 49 -64 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 48 -64 112 ) ( 49 -64 112 ) ( 48 -64 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 48 -64 112 ) ( 48 -64 113 ) ( 48 -63 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 76
+{
+( 64 -64 0 ) ( 64 -63 0 ) ( 64 -64 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 64 -64 0 ) ( 64 -64 1 ) ( 65 -64 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 64 -64 0 ) ( 65 -64 0 ) ( 64 -63 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 80 48 112 ) ( 80 49 112 ) ( 81 48 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 80 48 112 ) ( 81 48 112 ) ( 80 48 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 80 48 112 ) ( 80 48 113 ) ( 80 49 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 77
+{
+( 48 -80 0 ) ( 48 -79 0 ) ( 48 -80 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 48 -80 0 ) ( 48 -80 1 ) ( 49 -80 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 48 -80 0 ) ( 49 -80 0 ) ( 48 -79 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 64 -64 112 ) ( 64 -63 112 ) ( 65 -64 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 64 -64 112 ) ( 65 -64 112 ) ( 64 -64 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 64 -64 112 ) ( 64 -64 113 ) ( 64 -63 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 78
+{
+( -64 -80 0 ) ( -64 -79 0 ) ( -64 -80 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -64 -80 0 ) ( -64 -80 1 ) ( -63 -80 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -64 -80 0 ) ( -63 -80 0 ) ( -64 -79 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -48 -64 112 ) ( -48 -63 112 ) ( -47 -64 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -48 -64 112 ) ( -47 -64 112 ) ( -48 -64 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -48 -64 112 ) ( -48 -64 113 ) ( -48 -63 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 79
+{
+( -80 -64 0 ) ( -80 -63 0 ) ( -80 -64 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -80 -64 0 ) ( -80 -64 1 ) ( -79 -64 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -80 -64 0 ) ( -79 -64 0 ) ( -80 -63 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -64 48 112 ) ( -64 49 112 ) ( -63 48 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -64 48 112 ) ( -63 48 112 ) ( -64 48 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -64 48 112 ) ( -64 48 113 ) ( -64 49 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 80
+{
+( -208 1008 112 ) ( -208 1009 112 ) ( -208 1008 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -208 1008 112 ) ( -208 1008 113 ) ( -207 1008 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -208 1008 112 ) ( -207 1008 112 ) ( -208 1009 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 208 1040 128 ) ( 208 1041 128 ) ( 209 1040 128 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 208 1040 128 ) ( 209 1040 128 ) ( 208 1040 129 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 208 1040 128 ) ( 208 1040 129 ) ( 208 1041 128 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 81
+{
+( -208 1024 16 ) ( -208 1025 16 ) ( -208 1024 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -208 1024 16 ) ( -208 1024 17 ) ( -207 1024 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -208 1024 16 ) ( -207 1024 16 ) ( -208 1025 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -176 1040 112 ) ( -176 1041 112 ) ( -175 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -176 1040 112 ) ( -175 1040 112 ) ( -176 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -176 1040 112 ) ( -176 1040 113 ) ( -176 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 82
+{
+( -176 1024 96 ) ( -176 1025 96 ) ( -176 1024 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -176 1024 96 ) ( -176 1024 97 ) ( -175 1024 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -176 1024 96 ) ( -175 1024 96 ) ( -176 1025 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -160 1040 112 ) ( -160 1041 112 ) ( -159 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -160 1040 112 ) ( -159 1040 112 ) ( -160 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -160 1040 112 ) ( -160 1040 113 ) ( -160 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 83
+{
+( -80 1024 0 ) ( -80 1025 0 ) ( -80 1024 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -80 1024 0 ) ( -80 1024 1 ) ( -79 1024 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -80 1024 0 ) ( -79 1024 0 ) ( -80 1025 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -48 1040 112 ) ( -48 1041 112 ) ( -47 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -48 1040 112 ) ( -47 1040 112 ) ( -48 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -48 1040 112 ) ( -48 1040 113 ) ( -48 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 84
+{
+( -48 1024 96 ) ( -48 1025 96 ) ( -48 1024 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -48 1024 96 ) ( -48 1024 97 ) ( -47 1024 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -48 1024 96 ) ( -47 1024 96 ) ( -48 1025 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -32 1040 112 ) ( -32 1041 112 ) ( -31 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -32 1040 112 ) ( -31 1040 112 ) ( -32 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 1040 112 ) ( -32 1040 113 ) ( -32 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 85
+{
+( -96 1024 96 ) ( -96 1025 96 ) ( -96 1024 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 1024 96 ) ( -96 1024 97 ) ( -95 1024 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 1024 96 ) ( -95 1024 96 ) ( -96 1025 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -80 1040 112 ) ( -80 1041 112 ) ( -79 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -80 1040 112 ) ( -79 1040 112 ) ( -80 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -80 1040 112 ) ( -80 1040 113 ) ( -80 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 86
+{
+( 48 1024 0 ) ( 48 1025 0 ) ( 48 1024 1 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 48 1024 0 ) ( 48 1024 1 ) ( 49 1024 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 48 1024 0 ) ( 49 1024 0 ) ( 48 1025 0 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 80 1040 112 ) ( 80 1041 112 ) ( 81 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 80 1040 112 ) ( 81 1040 112 ) ( 80 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 80 1040 112 ) ( 80 1040 113 ) ( 80 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 87
+{
+( 32 1024 96 ) ( 32 1025 96 ) ( 32 1024 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 1024 96 ) ( 32 1024 97 ) ( 33 1024 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 1024 96 ) ( 33 1024 96 ) ( 32 1025 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 48 1040 112 ) ( 48 1041 112 ) ( 49 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 48 1040 112 ) ( 49 1040 112 ) ( 48 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 48 1040 112 ) ( 48 1040 113 ) ( 48 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 88
+{
+( 80 1024 96 ) ( 80 1025 96 ) ( 80 1024 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 80 1024 96 ) ( 80 1024 97 ) ( 81 1024 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 80 1024 96 ) ( 81 1024 96 ) ( 80 1025 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 96 1040 112 ) ( 96 1041 112 ) ( 97 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 96 1040 112 ) ( 97 1040 112 ) ( 96 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 96 1040 112 ) ( 96 1040 113 ) ( 96 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 89
+{
+( 176 1024 16 ) ( 176 1025 16 ) ( 176 1024 17 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 176 1024 16 ) ( 176 1024 17 ) ( 177 1024 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 176 1024 16 ) ( 177 1024 16 ) ( 176 1025 16 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 192 1040 112 ) ( 192 1041 112 ) ( 193 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 192 1040 112 ) ( 193 1040 112 ) ( 192 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 192 1040 112 ) ( 192 1040 113 ) ( 192 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 90
+{
+( 160 1024 96 ) ( 160 1025 96 ) ( 160 1024 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 1024 96 ) ( 160 1024 97 ) ( 161 1024 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 1024 96 ) ( 161 1024 96 ) ( 160 1025 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 176 1040 112 ) ( 176 1041 112 ) ( 177 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 176 1040 112 ) ( 177 1040 112 ) ( 176 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 176 1040 112 ) ( 176 1040 113 ) ( 176 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 91
+{
+( 528 528 112 ) ( 528 529 112 ) ( 528 528 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 528 528 112 ) ( 528 528 113 ) ( 529 528 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 528 528 112 ) ( 529 528 112 ) ( 528 529 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 656 544 144 ) ( 656 545 144 ) ( 657 544 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 656 544 144 ) ( 657 544 144 ) ( 656 544 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 656 544 144 ) ( 656 544 145 ) ( 656 545 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 92
+{
+( -64 -64 112 ) ( -64 -63 112 ) ( -64 -64 113 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -64 112 ) ( -64 -64 113 ) ( -63 -64 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -64 112 ) ( -63 -64 112 ) ( -64 -63 112 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 64 144 ) ( 64 65 144 ) ( 65 64 144 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 16 48 112 ) ( 0 48 240 ) ( 0 48 112 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 144 ) ( 64 64 145 ) ( 64 65 144 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 93
+{
+( -64 48 112 ) ( -64 49 112 ) ( -64 48 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -64 48 112 ) ( -64 48 113 ) ( -63 48 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -64 48 112 ) ( -63 48 112 ) ( -64 49 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 64 64 144 ) ( 64 65 144 ) ( 65 64 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 64 64 144 ) ( 65 64 144 ) ( 64 64 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 64 64 144 ) ( 64 64 145 ) ( 64 65 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 94
+{
+( -672 528 112 ) ( -672 529 112 ) ( -672 528 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -672 528 112 ) ( -672 528 113 ) ( -671 528 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -672 528 112 ) ( -671 528 112 ) ( -672 529 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -544 544 144 ) ( -544 545 144 ) ( -543 544 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -544 544 144 ) ( -543 544 144 ) ( -544 544 145 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -544 544 144 ) ( -544 544 145 ) ( -544 545 144 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 95
+{
+( -720 624 112 ) ( -720 592 240 ) ( -720 592 112 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -624 544 96 ) ( -608 544 224 ) ( -608 544 96 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -736 528 96 ) ( -735 528 96 ) ( -736 529 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -480 656 112 ) ( -480 657 112 ) ( -479 656 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -480 656 112 ) ( -479 656 112 ) ( -480 656 113 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -480 656 112 ) ( -480 656 113 ) ( -480 657 112 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 96
+{
+( -656 528 112 ) ( -656 544 96 ) ( -656 544 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -544 528 112 ) ( -656 528 96 ) ( -656 528 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -544 544 96 ) ( -656 528 96 ) ( -544 528 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -544 544 112 ) ( -656 528 112 ) ( -656 544 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -544 544 112 ) ( -656 544 96 ) ( -544 544 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -544 544 112 ) ( -544 528 96 ) ( -544 528 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 97
+{
+( 464 528 96 ) ( 464 529 96 ) ( 464 528 97 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 560 544 96 ) ( 576 544 224 ) ( 576 544 96 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 464 528 96 ) ( 465 528 96 ) ( 464 529 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 720 656 112 ) ( 720 657 112 ) ( 721 656 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 720 656 112 ) ( 721 656 112 ) ( 720 656 113 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 704 624 112 ) ( 704 592 112 ) ( 704 592 240 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 98
+{
+( 528 528 112 ) ( 528 544 96 ) ( 528 544 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 640 528 112 ) ( 528 528 96 ) ( 528 528 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 640 544 96 ) ( 528 528 96 ) ( 640 528 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 640 544 112 ) ( 528 528 112 ) ( 528 544 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 640 544 112 ) ( 528 544 96 ) ( 640 544 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 640 544 112 ) ( 640 528 96 ) ( 640 528 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 99
+{
+( 96 848 112 ) ( 96 1040 96 ) ( 96 1040 112 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 848 112 ) ( 96 848 96 ) ( 96 848 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 1040 96 ) ( 96 848 96 ) ( 160 848 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 160 1040 112 ) ( 96 848 112 ) ( 96 1040 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 144 1024 96 ) ( 128 1024 224 ) ( 128 1024 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 1040 112 ) ( 160 848 96 ) ( 160 848 112 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 100
+{
+( 96 1024 96 ) ( 96 1025 96 ) ( 96 1024 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 96 1024 96 ) ( 96 1024 97 ) ( 97 1024 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 96 1024 96 ) ( 97 1024 96 ) ( 96 1025 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 160 1040 112 ) ( 160 1041 112 ) ( 161 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 160 1040 112 ) ( 161 1040 112 ) ( 160 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 160 1040 112 ) ( 160 1040 113 ) ( 160 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 101
+{
+( -32 848 112 ) ( -32 1040 96 ) ( -32 1040 112 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 32 848 112 ) ( -32 848 96 ) ( -32 848 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 32 1040 96 ) ( -32 848 96 ) ( 32 848 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 32 1040 112 ) ( -32 848 112 ) ( -32 1040 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 16 1024 96 ) ( 0 1024 224 ) ( 0 1024 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 32 1040 112 ) ( 32 848 96 ) ( 32 848 112 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 102
+{
+( -160 848 112 ) ( -160 1040 96 ) ( -160 1040 112 ) world/Metal062C_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -96 848 112 ) ( -160 848 96 ) ( -160 848 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -96 1040 96 ) ( -160 848 96 ) ( -96 848 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -96 1040 112 ) ( -160 848 112 ) ( -160 1040 112 ) world/Metal062C_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -112 1024 96 ) ( -128 1024 224 ) ( -128 1024 96 ) world/Metal062C_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -96 1040 112 ) ( -96 848 96 ) ( -96 848 112 ) world/Metal062C_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 103
+{
+( -32 1024 96 ) ( -32 1025 96 ) ( -32 1024 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 1024 96 ) ( -32 1024 97 ) ( -31 1024 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -32 1024 96 ) ( -31 1024 96 ) ( -32 1025 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 1040 112 ) ( 32 1041 112 ) ( 33 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( 32 1040 112 ) ( 33 1040 112 ) ( 32 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( 32 1040 112 ) ( 32 1040 113 ) ( 32 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 104
+{
+( -160 1024 96 ) ( -160 1025 96 ) ( -160 1024 97 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -160 1024 96 ) ( -160 1024 97 ) ( -159 1024 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -160 1024 96 ) ( -159 1024 96 ) ( -160 1025 96 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -96 1040 112 ) ( -96 1041 112 ) ( -95 1040 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -96 1040 112 ) ( -95 1040 112 ) ( -96 1040 113 ) world/Bricks060_1K-PNG_AmbientOcclusion [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -96 1040 112 ) ( -96 1040 113 ) ( -96 1041 112 ) world/Bricks060_1K-PNG_AmbientOcclusion [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+// brush 105
+{
+( -704 528 0 ) ( -704 529 0 ) ( -704 528 1 ) world/Metal055A_1K-PNG_Color [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -704 528 0 ) ( -704 528 1 ) ( -703 528 0 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -704 528 0 ) ( -703 528 0 ) ( -704 529 0 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -480 640 16 ) ( -480 641 16 ) ( -479 640 16 ) world/Metal055A_1K-PNG_Color [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.1 0.1
+( -480 640 16 ) ( -479 640 16 ) ( -480 640 17 ) world/Metal055A_1K-PNG_Color [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+( -480 640 16 ) ( -480 640 17 ) ( -480 641 16 ) world/Metal055A_1K-PNG_Color [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.1 0.1
+}
+}

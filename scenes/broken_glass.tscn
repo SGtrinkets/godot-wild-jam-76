@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=3 uid="uid://drk1rilovc822"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2vr8e"]
+size = Vector3(1, 0.0180969, 0.84668)
+
+[node name="broken_glass" type="Node3D"]
+
+[node name="Area3D" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0388641, -0.0766602)
+shape = SubResource("BoxShape3D_2vr8e")
+
+[node name="CSGPolygon3D" type="CSGPolygon3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, -0.000523611, 1, 0, -1, -0.000523611, 0.167495, 0, -0.16885)
+polygon = PackedVector2Array(0, 0, 0.0878268, 0.18634, 0.212509, 0.0388434)
+depth = 0.02
+
+[node name="CSGPolygon3D2" type="CSGPolygon3D" parent="Area3D"]
+transform = Transform3D(-0.252475, 0.967603, 0.000506648, 0, -0.000523611, 1, 0.967604, 0.252475, 0.000132198, -0.190061, 0, -0.235595)
+polygon = PackedVector2Array(0, 0, 0.127698, 0.10648, 0.361229, 0.010305)
+depth = 0.02
+
+[node name="CSGPolygon3D3" type="CSGPolygon3D" parent="Area3D"]
+transform = Transform3D(0.995183, -0.0980345, -5.13319e-05, 0, -0.000523611, 1, -0.0980345, -0.995183, -0.000521089, -0.109792, 0, 0.0773047)
+polygon = PackedVector2Array(0, 0, 0.127698, 0.10648, 0.361229, 0.010305)
+depth = 0.02
+
+[node name="CSGPolygon3D4" type="CSGPolygon3D" parent="Area3D"]
+transform = Transform3D(0.995183, -0.0980345, -5.13319e-05, 0, -0.000523611, 1, -0.0980345, -0.995183, -0.000521089, -0.0734656, 0, -0.165044)
+polygon = PackedVector2Array(0, 0, 0.127698, 0.10648, 0.101522, 0.00632229)
+depth = 0.02
+
+[node name="CSGPolygon3D5" type="CSGPolygon3D" parent="Area3D"]
+transform = Transform3D(0.786526, 0.617558, 0.00032336, 0, -0.000523611, 1, 0.617558, -0.786525, -0.000411833, 0.160955, 0, -0.076645)
+polygon = PackedVector2Array(0, 0, 0.127698, 0.10648, 0.101522, 0.00632229)
+depth = 0.02
